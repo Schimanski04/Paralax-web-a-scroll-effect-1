@@ -27,10 +27,9 @@ nav {
 }
 
 nav > ul {
-    width: 50%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 15px 0px 15px 0px;
 }
 
@@ -42,11 +41,23 @@ nav > ul > li > a {
     text-decoration: none;
 }
 
+#amd {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+}
+
+#intel {
+    display: flex;
+    flex-direction: row-reverse;
+    /* justify-content: flex-end; */
+}
+
 .footer-links {
     background-color: gray;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 15px 0px 15px 0px;
 }
 
