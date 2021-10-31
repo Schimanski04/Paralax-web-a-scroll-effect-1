@@ -16,15 +16,50 @@ body, html {
     background-size: cover;
 }
 
+.parallax-amd {
+    /* The image used */
+    background-image: url('../images/AMD_RYZEN_CPU.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-intel {
+    /* The image used */
+    background-image: url('../images/CPU_Intel_Core.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 html {
     font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
 nav > ul {
+    margin-top: 100px;
     width: 100%;
-    position: fixed;
+    position: sticky;
+    z-index: 100;
     top: 0px;
     display: flex;
     flex-direction: row;
@@ -33,34 +68,59 @@ nav > ul {
     background-color: gray;
 }
 
-nav > ul > li {
-    list-style-type: none;
-    /* position: sticky;
-    top: 0px; */
+footer > ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px 0px 15px 0px;
+    background-color: gray;
 }
 
-nav > ul > li > a {
+ul > li {
+    list-style-type: none;
+}
+
+ul > li > a {
     text-decoration: none;
 }
 
 #amd {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #intel {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    height: 100%;
+    padding: 20px 25px 20px 25px;
+}
+
+section > .text {
+    width: 35%;
+}
+
+section > img {
+    height: 25%;
+    width: auto;
+    /* width: 100%; */
 }
 
 .links-img {
     display: flex;
     flex-direction: row;
-    margin-left: 15px;
 }
 
 .links-img > a > img {
-    width: 25%;
+    width: 30%;
 }
 
 ul > li > a:hover {
