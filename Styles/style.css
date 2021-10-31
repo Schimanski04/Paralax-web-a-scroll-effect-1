@@ -22,7 +22,10 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
-.links {
+nav > ul {
+    width: 100%;
+    position: fixed;
+    top: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -30,11 +33,13 @@ html {
     background-color: gray;
 }
 
-.links > li {
+nav > ul > li {
     list-style-type: none;
+    /* position: sticky;
+    top: 0px; */
 }
 
-.links > li > a {
+nav > ul > li > a {
     text-decoration: none;
 }
 
@@ -51,7 +56,7 @@ html {
 .links-img {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    margin-left: 15px;
 }
 
 .links-img > a > img {
