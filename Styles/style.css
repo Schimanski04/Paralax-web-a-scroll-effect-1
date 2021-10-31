@@ -48,6 +48,7 @@ body, html {
 
 html {
     font-family: 'Open Sans', sans-serif;
+    background-color: pink;
 }
 
 h1 {
@@ -64,7 +65,7 @@ nav > ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 15px 0px 15px 0px;
+    padding: 15px 0px;
     background-color: gray;
 }
 
@@ -73,7 +74,7 @@ footer > ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 15px 0px 15px 0px;
+    padding: 15px 0px;
     background-color: gray;
 }
 
@@ -105,26 +106,32 @@ section {
 }
 
 section > .text {
-    width: 35%;
+    width: 40%;
 }
 
 section > img {
     height: 25%;
     width: auto;
-    /* width: 100%; */
 }
 
 .links-img {
     display: flex;
     flex-direction: row;
+    margin-top: 25px;
 }
 
 .links-img > a > img {
     width: 30%;
 }
 
+ul > li > a {
+    color: black;
+    padding: 15px 50px;
+}
+
 ul > li > a:hover {
     background-color: green;
     color: white;
-    padding: 15px 0px 15px 0px;
+    /* padding: 15px 0px 15px 0px; */
+    /* font-weight: bold; */
 }
