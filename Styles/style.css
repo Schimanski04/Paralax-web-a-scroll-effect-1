@@ -57,9 +57,9 @@ h1 {
 }
 
 nav > ul {
-    margin-top: 100px;
+    /* margin-top: 100px; */
     width: 100%;
-    position: sticky;
+    position: fixed;
     z-index: 100;
     top: 0px;
     display: flex;
@@ -110,11 +110,21 @@ ul > li > a {
     align-items: center;
 }
 
+#amd > img {
+    height: 25%;
+    width: auto;
+}
+
 #intel {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
+}
+
+#intel > img {
+    height: 50%;
+    width: auto;
 }
 
 section {
@@ -126,10 +136,10 @@ section > .text {
     width: 40%;
 }
 
-section > img {
+/* section > img {
     height: 25%;
     width: auto;
-}
+} */
 
 .links-img {
     display: flex;
