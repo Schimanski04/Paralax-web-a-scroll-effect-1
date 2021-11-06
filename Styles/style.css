@@ -48,14 +48,9 @@ body, html {
 
 html {
     font-family: 'Open Sans', sans-serif;
-    background-color: pink;
+    background-color: rgba(121, 125, 127, 0.75);
     color: black;
 }
-
-/* h1 {
-    text-align: center;
-    margin-top: 100px;
-} */
 
 nav > ul {
     /* margin-top: 100px; */
