@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="stylesheet" href="./Styles/mouse_move.css">
     <link rel="icon" href="./images/CPU_icon.svg">
     <title>Two major manufacturers of CPU</title>
 </head>
@@ -21,8 +22,10 @@
     </header>
 
     <div class="title">
-        <h1>Two major manufacturers of computer processors<br>AMD & Intel</h1>
-        <img src="./images/CPU_icon.svg" alt="">
+        <div class="content">
+            <h1>CPU manufacturers <span>AMD & Intel</span></h1>
+        </div>
+        <img class="cpu" src="./images/CPU_icon.svg" alt="">
     </div>
 
     <div class="parallax"></div>
@@ -76,5 +79,16 @@
             <li><a href="#">Instagram</a></li>
         </ul>
     </footer>
+
+    <script type="text/javascript">
+        document.addEventListener("mousemove", function(e) {
+            const content = document.querySelector('.content');
+            const cpu = document.querySelector('.cpu');
+
+            cpu.style.right = 100 + e.pageX/2 + 'px';
+
+            content.style.left = 100 + e.pageX/2 + 'px';
+        })
+    </script>
 </body>
 </html>

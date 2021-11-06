@@ -86,7 +86,7 @@ ul > li > a {
     text-decoration: none;
 }
 
-.title {
+/* .title {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -97,7 +97,7 @@ ul > li > a {
 
 .title > img {
     width: 25%;
-}
+} */
 
 #info {
     padding: 20px 25px 20px 25px;
