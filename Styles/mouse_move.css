@@ -12,21 +12,22 @@
 
 .title img {
     position: absolute;
-    bottom: 0;
-    right: 100px;
-    max-height: 40%;
+    /* bottom: 10; */
+    right: 80px;
+    width: 25%;
     /* width: 25%; */
 }
 
 .content {
     position: absolute;
-    left: 100px;
-    max-width: 50%;
+    left: 80px;
+    width: 50%;
     z-index: 10;
+    text-align: right;
 }
 
-/* .content h1 span {
-    font-weight: 800;
-    font-size: 3.5em;
-    letter-spacing: 5px;
-} */
+.content h1 span {
+    font-weight: 600;
+    font-size: 1.25em;
+    letter-spacing: 4px;
+}
