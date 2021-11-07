@@ -85,10 +85,6 @@ ul > li > a {
     font-size: 1.1em;
 }
 
-/* #info {
-    padding: 20px 25px 20px 25px;
-} */
-
 #amd, #info {
     display: flex;
     flex-direction: row;
@@ -115,17 +111,12 @@ ul > li > a {
 
 section {
     height: 100%;
-    padding: 25px 25px;
+    padding: 20px 25px;
 }
 
 section > .text {
     width: 40%;
 }
-
-/* section > img {
-    height: 25%;
-    width: auto;
-} */
 
 .links-img {
     display: flex;
@@ -146,6 +137,4 @@ ul > li > a {
 ul > li > a:hover {
     background-color: green;
     color: white;
-    /* padding: 15px 0px 15px 0px; */
-    /* font-weight: bold; */
 }
