@@ -54,16 +54,20 @@ html {
 }
 
 nav > ul {
-    /* margin-top: 100px; */
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-    top: 0px;
+    height: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
     padding: 15px 0px;
+    margin-top: 0%;
     background-color: gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    top: 0px;
 }
 
 ul > li {
@@ -122,10 +126,10 @@ section > .text {
 
 ul > li > a {
     color: black;
-    padding: 15px 50px;
+    padding: 20px 50px;
 }
 
 ul > li > a:hover {
-    background-color: green;
+    background-color: rgb(204, 123, 27);
     color: white;
 }
