@@ -50,6 +50,7 @@ html {
     font-family: 'Open Sans', sans-serif;
     background-color: rgba(121, 125, 127, 0.75);
     color: black;
+    scroll-behavior: smooth;
 }
 
 nav > ul {
