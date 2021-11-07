@@ -66,15 +66,6 @@ nav > ul {
     background-color: gray;
 }
 
-footer > ul {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 15px 0px;
-    background-color: gray;
-}
-
 ul > li {
     list-style-type: none;
 }
