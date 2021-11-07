@@ -4,5 +4,5 @@ document.addEventListener("mousemove", function(e) {
 
     cpu.style.right = 80 + e.pageX/2 + 'px';
 
-    content.style.left = 80 + e.pageX/2.25 + 'px';
+    content.style.left = 80 + e.pageX/2 + 'px';
 })
